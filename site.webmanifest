@@ -1,0 +1,17 @@
+{
+  "name": "Masjid Alwadud — Al-Nur Sanctuary",
+  "short_name": "Masjid Alwadud",
+  "description": "A welcoming Islamic community center in the heart of the South Bronx, NY.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8faf9",
+  "theme_color": "#003527",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

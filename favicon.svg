@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#003527"/>
+  <!-- Mosque dome -->
+  <ellipse cx="32" cy="28" rx="14" ry="10" fill="#ffe081"/>
+  <!-- Minaret left -->
+  <rect x="10" y="22" width="6" height="20" rx="2" fill="#ffe081"/>
+  <ellipse cx="13" cy="22" rx="3" ry="4" fill="#ffe081"/>
+  <!-- Minaret right -->
+  <rect x="48" y="22" width="6" height="20" rx="2" fill="#ffe081"/>
+  <ellipse cx="51" cy="22" rx="3" ry="4" fill="#ffe081"/>
+  <!-- Main building body -->
+  <rect x="18" y="34" width="28" height="14" rx="2" fill="#ffe081"/>
+  <!-- Door arch -->
+  <path d="M27 48 L27 40 Q32 36 37 40 L37 48 Z" fill="#003527"/>
+  <!-- Ground line -->
+  <rect x="8" y="48" width="48" height="3" rx="1.5" fill="#95d3ba"/>
+  <!-- Star/crescent top of dome -->
+  <circle cx="32" cy="18" r="2.5" fill="#003527"/>
+  <path d="M32 14.5 C34 15.5 35 17 34.5 18.5 C33 17.5 31 17.5 29.5 18.5 C29 17 30 15.5 32 14.5Z" fill="#003527"/>
+</svg>
