@@ -269,7 +269,7 @@ async function sendDonationEmail(email, firstName, amount, frequency) {
         </p>
         <p>May Allah accept from you and reward you with goodness. آمين</p>
         <hr style="border: none; border-top: 2px solid #e5e7eb; margin: 20px 0;">
-        <p><strong>Masjid Alwadud — Al-Nur Sanctuary</strong><br>
+        <p><strong>Masjid Alwadud</strong><br>
         269E 149th Street, Bronx, NY 10451<br>
         <a href="https://www.alwadud.org">www.alwadud.org</a><br>
         contact@alwadud.org</p>

@@ -1,6 +1,6 @@
-# Masjid Alwadud — Al-Nur Sanctuary
+# Masjid Alwadud
 
-Official website for Masjid Alwadud (Al-Nur Sanctuary), 269E 149th Street, Bronx, NY 10451.
+Official website for Masjid Alwadud, 269E 149th Street, Bronx, NY 10451.
 
 Built with HTML, Tailwind CSS (via CDN), and vanilla JavaScript. Deployed on Vercel with serverless API functions.
 

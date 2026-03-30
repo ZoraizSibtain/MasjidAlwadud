@@ -71,7 +71,7 @@ module.exports = async (req, res) => {
               <li>Special occasions and Eid celebrations</li>
             </ul>
             <p>May Allah bless you and your family. آمين</p>
-            <p><strong>Masjid Alwadud — Al-Nur Sanctuary</strong><br>
+            <p><strong>Masjid Alwadud</strong><br>
             269E 149th Street, Bronx, NY 10451</p>
           `,
         });
