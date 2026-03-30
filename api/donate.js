@@ -5,7 +5,6 @@
  * Handles donation requests and processes payments via Stripe
  */
 
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const nodemailer = require('nodemailer');
 
 // Email validation regex
@@ -56,10 +55,12 @@ module.exports = async (req, res) => {
   try {
     // Check if Stripe is configured
     if (!process.env.STRIPE_SECRET_KEY) {
-      return res.status(503).json({ 
-        error: 'Payment processing is not configured. Please contact support.' 
+      return res.status(503).json({
+        error: 'Payment processing is not configured. Please contact support.'
       });
     }
+
+    const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
     const { 
       email, 

@@ -1,15 +1,5 @@
 {
   "buildCommand": "npm install",
-  "env": [
-    "STRIPE_PUBLIC_KEY",
-    "STRIPE_SECRET_KEY",
-    "SMTP_HOST",
-    "SMTP_PORT",
-    "SMTP_SECURE",
-    "SMTP_USER",
-    "SMTP_PASS",
-    "EMAIL_FROM"
-  ],
   "rewrites": [
     {
       "source": "/api/(.*)",
