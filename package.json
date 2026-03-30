@@ -1,0 +1,65 @@
+{
+  "name": "zoraiz-sibtain-portfolio",
+  "version": "1.17.0",
+  "author": "Zoraiz Sibtain <zoraiz.sibtain@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ZoraizSibtain/portfolio-website.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.11.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@vercel/analytics": "^2.0.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.0.1",
+    "react-resizable-panels": "^2.0.19",
+    "react-router-dom": "^6.22.3",
+    "react-simple-typewriter": "^5.0.1",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@nkzw/eslint-config": "^1.10.0",
+    "@swc/core": "^1.3.96",
+    "@types/node": "^20.12.5",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.54.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.31",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "tailwindcss": "^3.3.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2",
+    "vite": "^7.3.1",
+    "vitest": "^4.1.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite dev",
+    "format": "prettier --write .",
+    "lint:format": "prettier --cache --check .",
+    "lint": "eslint --cache .",
+    "test": "npm-run-all --parallel tsc:check vitest:run lint lint:format",
+    "tsc:check": "tsc",
+    "vitest:run": "vitest run"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
